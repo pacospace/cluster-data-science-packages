@@ -5,20 +5,18 @@ verify_ssl = true
 
 [packages]
 thoth-storages = "*"
-
 jupyter = "*"
 jupyter_contrib_nbextensions = "*"
 jupyter-nbrequirements = "*"
 prompt-toolkit = "*"
-
 spacy = "*"
 pyenchant = "*"
-
 gensim = "*"
 pyldavis = "*"
 scikit-learn = "*"
-
 tqdm = "*"
+pandas = "*"
+matplotlib = "*"
 
 [dev-packages]
 pytest = "*"
