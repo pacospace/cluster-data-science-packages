@@ -1,0 +1,7 @@
+thoth-storages
+jupyter
+jupyter_contrib_nbextensions
+jupyter-nbrequirements
+prompt-toolkit
+spacy
+pyenchant
