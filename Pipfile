@@ -1,0 +1,32 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+thoth-storages = "*"
+jupyter = "*"
+jupyter_contrib_nbextensions = "*"
+jupyter-nbrequirements = "*"
+prompt-toolkit = "*"
+spacy = "*"
+pyenchant = "*"
+gensim = "*"
+pyldavis = "*"
+scikit-learn = "*"
+tqdm = "*"
+pandas = "*"
+matplotlib = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-timeout = "*"
+pytest-cov = "*"
+pylint = "*"
+coala = "*"
+pytest-mypy = "*"
+mypy = "*"
+pre-commit = "==2.0.1"
+
+[requires]
+python_version = "3.6"
