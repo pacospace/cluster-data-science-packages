@@ -1,12 +1,7 @@
-# template-project
+# Data Science packages categorization
 
-This is a Template for any Python based project, it contains what Project Thoth and the AI CoE need:
+This project aims at clustering Python Packages for Data Science under specific categories.
 
-1. GitHub defaults and Templates for issues
-2. configuration for Coala and Black (code formating)
-3. basic configuration for Zuul
-4. configuration for Thoth (stage environment, Red Hat VPN only)
-5. if you are writing a Python module, Kebechet could manage releases of your packages for you
-6. if credentials are provided, Python module releases could be published to PyPI
-
-Dependencies should be managed using `pipenv` (`Pipfile`, and the `Pipfile.lock` could be created by `thamos advise`), `pip3` and a `requirements.txt` files could be used.
+The initial list of Python packages for data science that are used for this experiment can be found
+in `100 Data Science Python Packages <https://github.com/pacospace/cluster-data-science-packages/blob/master/data/raw/hundreds_data_science_packages_initial_dataset.json>`__.
+This preliminary list has been selected with collegues from Red Hat AICoE and other departments at Red Hat.
